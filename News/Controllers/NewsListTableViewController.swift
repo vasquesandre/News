@@ -7,6 +7,7 @@
 
 import UIKit
 
+@MainActor
 class NewsListTableViewController: UITableViewController {
     
     private var viewModel = ArticleViewModel()
